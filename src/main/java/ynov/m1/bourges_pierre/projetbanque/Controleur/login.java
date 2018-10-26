@@ -33,6 +33,9 @@ public class login extends HttpServlet {
 
         Utilisateur utilisateur = UtilisateurManager.loadUtilisateurByLoginAndPassword(login, mdp);
         if (utilisateur == null){
+
+            req.setAttribute("errorLogin", true);
+
             RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/classes/WEB-INF/views/login.jsp");
             dispatcher.forward(req, resp);
         }else {
