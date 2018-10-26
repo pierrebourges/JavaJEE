@@ -42,13 +42,5 @@ public class RestTransaction extends HttpServlet {
 
             TransactionManager.saveTransaction(transaction);
         }
-
-//        transaction.setCompte_destination();
-//        transaction.setCompte_source();
-//        transaction.setDate();
-//        transaction.setMontant();
-//        transaction.setLebelle();
-//
-//        TransactionManager.saveTransaction(transaction);
     }
 }
