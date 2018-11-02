@@ -23,11 +23,13 @@ public class UtilisateurManager  extends BaseManager{
         em.getTransaction().begin();
         em.persist(utilisateur);
         em.getTransaction().commit();
+        logger.info(em);
     }
 
     public static Utilisateur loadUtilisateurById(Integer utilisateurId){
         EntityManager em = getEntityManager();
         Utilisateur utilisateur = em.find(Utilisateur.class, utilisateurId);
+        logger.info(utilisateur);
         return utilisateur;
     }
 
@@ -36,25 +38,13 @@ public class UtilisateurManager  extends BaseManager{
         TypedQuery<Utilisateur> query = em.createQuery("SELECT u FROM Utilisateur u WHERE u.login = '"+ login +
                 "' and password = '" + password + "'", Utilisateur.class);
         if(query.getResultList().isEmpty()){
+            logger.error("User not find login : " + login + " password : " + password);
             return null;
         }
         Utilisateur utilisateur = query.getSingleResult();
-
-        for (Compte compte : utilisateur.getComptes()){
-            logger.trace(compte);
-            for (Transaction trans : compte.getTransactions()){
-            }
-        }
-
+        logger.debug(utilisateur);
 
         return utilisateur;
-    }
-
-    public static void deleteUtilisateur(Utilisateur utilisateur){
-        EntityManager em = getEntityManager();
-        em.getTransaction().begin();
-        em.remove(utilisateur);
-        em.getTransaction().commit();
     }
 
     public static void  updateUtilisateur(Utilisateur utilisateur){
@@ -62,6 +52,6 @@ public class UtilisateurManager  extends BaseManager{
         em.getTransaction().begin();
         em.merge(utilisateur);
         em.getTransaction().commit();
-        logger.debug(utilisateur);
+        logger.info(utilisateur);
     }
 }

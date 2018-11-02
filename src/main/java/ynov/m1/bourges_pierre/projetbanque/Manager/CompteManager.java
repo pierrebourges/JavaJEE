@@ -19,7 +19,7 @@ public class CompteManager extends BaseManager{
         em.getTransaction().begin();
         em.persist(compte);
         em.getTransaction().commit();
-        logger.debug(compte);
+        logger.info(compte);
     }
 
     public static void  updateCompte(Compte compte){
@@ -27,7 +27,7 @@ public class CompteManager extends BaseManager{
         em.getTransaction().begin();
         em.merge(compte);
         em.getTransaction().commit();
-        logger.debug(compte);
+        logger.info(compte);
     }
 
     public static Compte findCompteById (Integer Id){
@@ -35,10 +35,12 @@ public class CompteManager extends BaseManager{
         TypedQuery<Compte> query = em.createQuery("SELECT c FROM Compte c WHERE c.id_compte = "+ Id , Compte.class);
 
         if (query.getResultList().isEmpty()){
+            logger.error("Account not find id : " + Id);
             return null;
         }
 
         Compte compte = query.getSingleResult();
+        logger.info(compte);
 
         return compte;
     }
