@@ -37,5 +37,8 @@
         </table>
         <input type="submit" value="<fmt:message key = "btn_connexion" />"/>
     </form>
+    <c:if test="${requestScope.errorLogin!=null}">
+        <fmt:message key="errorLogin"/>
+    </c:if>
 </body>
 </html>
