@@ -7,12 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a57b985a-f3be-431c-bce2-94ca09adf2e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/Deconnexion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/servlet/servlet.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/servlet/servlet.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/views/changeMDP.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WEB-INF/views/changeMDP.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/views/comptes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WEB-INF/views/comptes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/views/detailsCompte.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WEB-INF/views/detailsCompte.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/views/includes/lib.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WEB-INF/views/includes/lib.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/langues/projetbanque_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/langues/projetbanque_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/langues/projetbanque_fr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/langues/projetbanque_fr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/changeMDP.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/changeMDP.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/comptes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/comptes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/detailsCompte.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/detailsCompte.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/langues/projetbanque_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/langues/projetbanque_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/langues/projetbanque_fr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/langues/projetbanque_fr.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,36 +49,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="88" />
+          <entry key="java" value="93" />
           <entry key="jsp" value="14" />
-          <entry key="properties" value="11" />
+          <entry key="properties" value="15" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="88" />
+          <entry key="JAVA" value="93" />
           <entry key="JSP" value="14" />
-          <entry key="Properties" value="11" />
+          <entry key="Properties" value="15" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="8780" />
-          <entry key="jsp" value="3133" />
-          <entry key="properties" value="2301" />
-          <entry key="txt" value="24" />
+          <entry key="java" value="8894" />
+          <entry key="jsp" value="3313" />
+          <entry key="properties" value="2365" />
+          <entry key="txt" value="33" />
           <entry key="xml" value="523" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8780" />
-          <entry key="JSP" value="3133" />
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Properties" value="2301" />
+          <entry key="JAVA" value="8894" />
+          <entry key="JSP" value="3313" />
+          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="Properties" value="2365" />
           <entry key="XML" value="523" />
         </counts>
       </usages-collector>
@@ -81,8 +90,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/langues/projetbanque_en.properties">
           <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+            <state relative-caret-position="272">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -91,59 +100,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/langues/projetbanque_fr.properties">
           <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/DetailsCompte.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="87" column="69" selection-start-line="87" selection-start-column="69" selection-end-line="87" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/detailsCompte.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/comptes.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/changeMDP.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/RestTransaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="25" column="15" selection-start-line="25" selection-end-line="25" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -151,17 +109,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="255">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/includes/lib.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/comptes.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+            <state relative-caret-position="153">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/detailsCompte.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/changeMDP.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/Deconnexion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,8 +157,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="340">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/DetailsCompte.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -241,12 +241,13 @@
         <option value="$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/DetailsCompte.java" />
         <option value="$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/RestTransaction.java" />
         <option value="$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/login.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/WEB-INF/views/includes/lib.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/Deconnexion.java" />
         <option value="$PROJECT_DIR$/src/main/resources/langues/projetbanque_fr.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/langues/projetbanque_en.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/WEB-INF/views/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/WEB-INF/views/includes/lib.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/WEB-INF/views/detailsCompte.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/WEB-INF/views/comptes.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/WEB-INF/views/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/WEB-INF/views/changeMDP.jsp" />
       </list>
     </option>
@@ -330,33 +331,6 @@
               <item name="ProjetBanque2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="projetbanque" type="462c0819:PsiDirectoryNode" />
-              <item name="Filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetBanque2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetBanque2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="projetbanque" type="462c0819:PsiDirectoryNode" />
-              <item name="Manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetBanque2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetBanque2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="projetbanque" type="462c0819:PsiDirectoryNode" />
-              <item name="Modele" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetBanque2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetBanque2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -366,23 +340,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="langues" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetBanque2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetBanque2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetBanque2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetBanque2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjetBanque2" type="b2602c69:ProjectViewProjectNode" />
@@ -421,7 +378,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540567741350" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541164811579" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -650,7 +607,7 @@
       <workItem from="1539931209675" duration="25523000" />
       <workItem from="1540450337818" duration="25298000" />
       <workItem from="1540537184006" duration="18361000" />
-      <workItem from="1541143838884" duration="2512000" />
+      <workItem from="1541143838884" duration="15157000" />
     </task>
     <task id="LOCAL-00001" summary="Update first">
       <created>1540555624610</created>
@@ -673,7 +630,28 @@
       <option name="project" value="LOCAL" />
       <updated>1541144104058</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Error login">
+      <created>1541147713140</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541147713140</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Error login">
+      <created>1541147757164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541147757164</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Bootstrap">
+      <created>1541158812372</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541158812372</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -709,7 +687,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147409000" />
+    <option name="totallyTimeSpent" value="160054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -761,7 +739,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update first" />
     <MESSAGE value="Error login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Error login" />
+    <MESSAGE value="Bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/libraries/Hibernate_5_3_6_5_3_6.xml">
@@ -820,13 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="54" column="20" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ynov/m1/bourges_pierre/projetbanque/Manager/ChangeMDPTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -903,46 +875,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/langues/projetbanque_en.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/langues/projetbanque_fr.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/DetailsCompte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="87" column="69" selection-start-line="87" selection-start-column="69" selection-end-line="87" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/RestTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -956,31 +892,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="340">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/DetailsCompte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ynov/m1/bourges_pierre/projetbanque/Controleur/Deconnexion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ynov/m1/bourges_pierre/projetbanque/Manager/ChangeMDPTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/langues/projetbanque_fr.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="15" selection-start-line="25" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/langues/projetbanque_en.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/detailsCompte.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        <state relative-caret-position="153">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/comptes.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="153">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/WEB-INF/views/changeMDP.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>

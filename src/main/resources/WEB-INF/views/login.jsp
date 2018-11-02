@@ -14,7 +14,7 @@
     <title><fmt:message key = "title_login"/></title>
 </head>
 <body>
-<div class="col-md-4 offset-md-4">
+<div class="col-md-6 offset-md-3">
     <form id="formlangage" method="get">
         <select onchange="this.form.submit()" id="form_langues" name="form_langues" class="form-control">
             <option><fmt:message key = "chooseLange" /></option>

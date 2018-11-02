@@ -13,7 +13,7 @@
     <title><fmt:message key = "title_ChangeMDP"/></title>
 </head>
 <body>
-    <div class="col-md-4 offset-md-4">
+    <div class="col-md-6 offset-md-3">
         <form id="formlangage" method="get">
             <select onchange="this.form.submit()" id="form_langues" name="form_langues" class="form-control">
                 <option><fmt:message key = "chooseLange" /></option>
@@ -21,7 +21,7 @@
                 <option value="en" id="en">en</option>
             </select>
         </form>
-
+        <a href="/deconnexion"><button class="btn btn-secondary"><fmt:message key = "btn_deconnexion"/></button></a>
         <h1><fmt:message key = "title_ChangeMDP"/></h1>
 
         <form method="post">
