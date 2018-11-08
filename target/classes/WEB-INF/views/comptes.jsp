@@ -2,13 +2,14 @@
     <title><fmt:message key = "title_comptes"/></title>
 </head>
 <body>
-    <div class="col-md-6 offset-md-3">
-        <form id="formlangage" method="get">
-            <select onchange="this.form.submit()" id="form_langues" name="form_langues" class="form-control">
+    <div class="col-md-6 offset-md-3 bg-light">
+        <form id="formlangage" method="post" action="${pageContext.request.contextPath}/langue">
+            <select onchange="this.form.submit()" id="form_langues" name="form_langues" class="form-control" style="width: 214px">
                 <option><fmt:message key = "chooseLange" /></option>
                 <option value="fr" id="fr">fr</option>
                 <option value="en" id="en">en</option>
             </select>
+            <input name="url" type="text" value="/comptes" hidden/>
         </form>
         <a href="/deconnexion"><button class="btn btn-secondary"><fmt:message key = "btn_deconnexion"/></button></a>
 

@@ -2,9 +2,9 @@
     <title><fmt:message key = "title_login"/></title>
 </head>
 <body>
-<div class="col-md-6 offset-md-3">
+<div class="col-md-6 offset-md-3 bg-light">
     <form id="formlangage" method="post" action="${pageContext.request.contextPath}/langue">
-        <select onchange="this.form.submit()" id="form_langues" name="form_langues" class="form-control">
+        <select onchange="this.form.submit()" id="form_langues" name="form_langues" class="form-control" style="width: 214px">
             <option><fmt:message key = "chooseLange" /></option>
             <option value="fr" id="fr">fr</option>
             <option value="en" id="en">en</option>
