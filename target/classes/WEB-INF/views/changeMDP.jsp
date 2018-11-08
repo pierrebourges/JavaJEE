@@ -1,19 +1,8 @@
 <%@include file="includes/lib.jsp"%>
-<%--<!doctype html>--%>
-<%--<html lang="fr">--%>
-<%--<c:if test="${param.form_langues!=null}">--%>
-    <%--<fmt:setLocale value = "${param.form_langues}" scope="session"/>--%>
-<%--</c:if>--%>
-<%--<fmt:setBundle basename = "langues.projetbanque"/>--%>
-<%--<head>--%>
-    <%--<meta charset="UTF-8">--%>
-    <%--<meta name="viewport"--%>
-          <%--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">--%>
-    <%--<meta http-equiv="X-UA-Compatible" content="ie=edge">--%>
     <title><fmt:message key = "title_ChangeMDP"/></title>
 </head>
 <body>
-    <div class="col-md-4 offset-md-4">
+    <div class="col-md-6 offset-md-3">
         <form id="formlangage" method="get">
             <select onchange="this.form.submit()" id="form_langues" name="form_langues" class="form-control">
                 <option><fmt:message key = "chooseLange" /></option>
