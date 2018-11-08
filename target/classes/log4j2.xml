@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="warn">
     <Properties>
-        <Property name="basePath">C:\\logs</Property>
+        <Property name="basePath">C:\Users\pierr\OneDrive\Documents\M1\Java\ProjetBanque2\logs</Property>
     </Properties>
 
     <Appenders>
@@ -24,6 +24,7 @@
         </Logger>
         <Root level="debug" additivity="false">
             <appender-ref ref="console" />
+            <appender-ref ref="fileLogger" />
         </Root>
     </Loggers>
 </Configuration>

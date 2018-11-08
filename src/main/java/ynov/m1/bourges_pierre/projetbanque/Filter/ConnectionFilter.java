@@ -17,13 +17,15 @@ public class ConnectionFilter implements Filter {
         String loginURI = req.getContextPath() + "/login";
         String restURI = req.getContextPath() + "/rest";
         String restPost = req.getContextPath() + "/resttransaction";
+        String langue = req.getContextPath() + "/langue";
 
         boolean loggedIn = session != null && session.getAttribute("utilisateur") != null;
         boolean loginRequest = req.getRequestURI().equals(loginURI);
         boolean restfilter = req.getRequestURI().equals(restURI);
         boolean restPostfilter = req.getRequestURI().equals(restPost);
+        boolean boolLangue = req.getRequestURI().equals(langue);
 
-        if (loggedIn || loginRequest || restfilter || restPostfilter) {
+        if (loggedIn || loginRequest || restfilter || restPostfilter || boolLangue) {
             chain.doFilter(request, response);
         } else {
             resp.sendRedirect(loginURI);

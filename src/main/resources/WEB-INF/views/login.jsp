@@ -3,12 +3,13 @@
 </head>
 <body>
 <div class="col-md-6 offset-md-3">
-    <form id="formlangage" method="get">
+    <form id="formlangage" method="post" action="${pageContext.request.contextPath}/langue">
         <select onchange="this.form.submit()" id="form_langues" name="form_langues" class="form-control">
             <option><fmt:message key = "chooseLange" /></option>
             <option value="fr" id="fr">fr</option>
             <option value="en" id="en">en</option>
         </select>
+        <input name="url" type="text" value="/login" hidden/>
     </form>
 
     <h1><fmt:message key = "msg_bienvenue"/></h1>

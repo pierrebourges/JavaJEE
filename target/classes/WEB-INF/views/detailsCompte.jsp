@@ -3,14 +3,16 @@
 </head>
 <body>
     <div class="col-md-6 offset-md-3">
-        <form id="formlangage" method="get">
+        <form id="formlangage" method="post" action="${pageContext.request.contextPath}/langue">
             <select onchange="this.form.submit()" id="form_langues" name="form_langues" class="form-control">
                 <option><fmt:message key = "chooseLange" /></option>
                 <option value="fr" id="fr">fr</option>
                 <option value="en" id="en">en</option>
             </select>
+            <input name="url" type="text" value="/detailsCompte?idCompte=${param.idCompte}" hidden/>
         </form>
-        <a href="/deconnexion"><button class="btn btn-secondary"><fmt:message key = "btn_deconnexion"/></button></a>
+        <a href="/deconnexion"><button class="btn btn-secondary"><fmt:message key = "btn_deconnexion"/></button></a><br>
+        <a href="/comptes"><img src="https://img.icons8.com/metro/1600/left.png" alt="retour" height="30px"></a>
         <h1><fmt:message key = "title_DetailCompte"/></h1>
         <c:forEach items="${utilisateur.comptes}" var="compte">
             <c:if test="${param.idCompte==compte.getId_compte()}">

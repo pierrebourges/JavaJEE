@@ -28,8 +28,6 @@ public class login extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String login = req.getParameter("login");
         String mdp = req.getParameter("mdp");
-        String langue = req.getParameter("form_langues");
-        req.setAttribute("langue", langue);
 
         Utilisateur utilisateur = UtilisateurManager.loadUtilisateurByLoginAndPassword(login, mdp);
         if (utilisateur == null){
@@ -42,10 +40,6 @@ public class login extends HttpServlet {
             req.getSession().setAttribute("utilisateur", utilisateur);
             req.getSession().setMaxInactiveInterval(2*60);
             resp.sendRedirect(req.getContextPath() + "/comptes");
-        }
-
-        if(langue != null){
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/classes/WEB-INF/views/login.jsp");
         }
     }
 }

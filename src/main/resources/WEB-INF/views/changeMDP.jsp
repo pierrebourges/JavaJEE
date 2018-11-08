@@ -3,14 +3,16 @@
 </head>
 <body>
     <div class="col-md-6 offset-md-3">
-        <form id="formlangage" method="get">
+        <form id="formlangage" method="post" action="${pageContext.request.contextPath}/langue">
             <select onchange="this.form.submit()" id="form_langues" name="form_langues" class="form-control">
                 <option><fmt:message key = "chooseLange" /></option>
                 <option value="fr" id="fr">fr</option>
                 <option value="en" id="en">en</option>
             </select>
+            <input name="url" type="text" value="/changemdp" hidden/>
         </form>
-        <a href="/deconnexion"><button class="btn btn-secondary"><fmt:message key = "btn_deconnexion"/></button></a>
+        <a href="/deconnexion"><button class="btn btn-secondary"><fmt:message key = "btn_deconnexion"/></button></a><br>
+        <a href="/comptes"><img src="https://img.icons8.com/metro/1600/left.png" alt="retour" height="30px"></a>
         <h1><fmt:message key = "title_ChangeMDP"/></h1>
 
         <form method="post">

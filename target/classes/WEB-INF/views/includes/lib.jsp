@@ -2,8 +2,8 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!doctype html>
 <html lang="fr">
-<c:if test="${param.form_langues!=null}">
-    <fmt:setLocale value = "${param.form_langues}" scope="session"/>
+<c:if test="${langue!=null}">
+    <fmt:setLocale value = "${langue}" scope="session"/>
 </c:if>
 <fmt:setBundle basename = "langues.projetbanque"/>
 <head>
